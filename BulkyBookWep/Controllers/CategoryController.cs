@@ -50,6 +50,7 @@ public class CategoryController : Controller
         {
             _db.Categories.Add(category);
             _db.SaveChanges(); //必須要Save才會真的存進去唷
+            TempData["success"] = "新增成功";
             return RedirectToAction("Index");
         }
 
@@ -89,6 +90,7 @@ public class CategoryController : Controller
         {
             _db.Categories.Update(category);
             _db.SaveChanges(); //必須要Save才會真的存進去唷
+            TempData["success"] = "編輯成功";
             return RedirectToAction("Index");
         }
 
@@ -103,7 +105,7 @@ public class CategoryController : Controller
         if (categoryId == null || categoryId == 0) return NotFound();
         var category = _db.Categories.FirstOrDefault(c => c.Id == categoryId);
         if (category == null) return NotFound();
-
+        
         return View(category);
     }
 
@@ -116,6 +118,7 @@ public class CategoryController : Controller
         if (category == null) return NotFound();
         _db.Categories.Remove(category);
         _db.SaveChanges(); //必須要Save才會真的存進去唷
+        TempData["success"] = "刪除成功";
         return RedirectToAction("Index");
     }
 }

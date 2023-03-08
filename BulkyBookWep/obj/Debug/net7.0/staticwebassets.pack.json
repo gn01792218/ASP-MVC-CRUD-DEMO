@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\User\\RiderProjects\\BulkyBookWep\\BulkyBookWep\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BulkyBookWep.bundle.scp.css",
-      "PackagePath": "staticwebassets\\BulkyBookWep.bundle.scp.css"
-    },
-    {
       "Id": "C:\\Users\\User\\RiderProjects\\BulkyBookWep\\BulkyBookWep\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

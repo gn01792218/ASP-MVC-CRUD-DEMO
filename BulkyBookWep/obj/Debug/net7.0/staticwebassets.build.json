@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9FMI2s6u/Kb5F4VFuYtvRYa0Ao6SPaW9rqzeeAaIvMg=",
+  "Hash": "hRsOD83leKOytlfHJfC06cJc3iAwgw50h4OAdzbKqfk=",
   "Source": "BulkyBookWep",
   "BasePath": "_content/BulkyBookWep",
   "Mode": "Default",
@@ -16,40 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\User\\RiderProjects\\BulkyBookWep\\BulkyBookWep\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BulkyBookWep.styles.css",
-      "SourceId": "BulkyBookWep",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\User\\RiderProjects\\BulkyBookWep\\BulkyBookWep\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/BulkyBookWep",
-      "RelativePath": "BulkyBookWep.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\RiderProjects\\BulkyBookWep\\BulkyBookWep\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BulkyBookWep.styles.css"
-    },
-    {
-      "Identity": "C:\\Users\\User\\RiderProjects\\BulkyBookWep\\BulkyBookWep\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BulkyBookWep.bundle.scp.css",
-      "SourceId": "BulkyBookWep",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\User\\RiderProjects\\BulkyBookWep\\BulkyBookWep\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/BulkyBookWep",
-      "RelativePath": "BulkyBookWep.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\RiderProjects\\BulkyBookWep\\BulkyBookWep\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BulkyBookWep.bundle.scp.css"
-    },
     {
       "Identity": "C:\\Users\\User\\RiderProjects\\BulkyBookWep\\BulkyBookWep\\wwwroot\\css\\site.css",
       "SourceId": "BulkyBookWep",

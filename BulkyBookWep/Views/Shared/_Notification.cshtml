@@ -1,0 +1,18 @@
+﻿@* partial view *@
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+@if (TempData["success"] != null)
+{
+    <script type="text/javascript">
+        //一定要用 '' 包起來才可以解析成功唷
+        toastr.success('@TempData["success"]')
+    </script>
+}
+@if (TempData["error"] != null)
+{
+    <script>
+        toastr.error('@TempData["error"]')
+    </script>
+}
+

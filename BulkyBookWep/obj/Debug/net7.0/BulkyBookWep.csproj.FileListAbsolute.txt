@@ -54,9 +54,7 @@ C:\Users\User\RiderProjects\BulkyBookWep\BulkyBookWep\obj\Debug\net7.0\staticweb
 C:\Users\User\RiderProjects\BulkyBookWep\BulkyBookWep\obj\Debug\net7.0\staticwebassets.pack.json
 C:\Users\User\RiderProjects\BulkyBookWep\BulkyBookWep\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\User\RiderProjects\BulkyBookWep\BulkyBookWep\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\User\RiderProjects\BulkyBookWep\BulkyBookWep\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\User\RiderProjects\BulkyBookWep\BulkyBookWep\obj\Debug\net7.0\scopedcss\bundle\BulkyBookWep.styles.css
-C:\Users\User\RiderProjects\BulkyBookWep\BulkyBookWep\obj\Debug\net7.0\scopedcss\projectbundle\BulkyBookWep.bundle.scp.css
 C:\Users\User\RiderProjects\BulkyBookWep\BulkyBookWep\obj\Debug\net7.0\BulkyBookWep.csproj.CopyComplete
 C:\Users\User\RiderProjects\BulkyBookWep\BulkyBookWep\obj\Debug\net7.0\BulkyBookWep.dll
 C:\Users\User\RiderProjects\BulkyBookWep\BulkyBookWep\obj\Debug\net7.0\refint\BulkyBookWep.dll
