@@ -1,4 +1,5 @@
-﻿using BulkyBookWep.Data;
+﻿using System.Diagnostics;
+using BulkyBookWep.Data;
 using BulkyBookWep.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -60,10 +61,10 @@ public class CategoryController : Controller
 
     //3-1 Edit頁面 (GET)
     //依據要編輯的Category id 顯示要編輯的 Category
-    public IActionResult Edit(int? categoryId) //這個參數可以透過 asp-route來獲取，只要再後綴這個參數名稱即可( asp-route-categoryId )
+    public IActionResult Edit(int? Id) //這個參數可以透過 asp-route-{参数} 來獲取，只要再後綴這個參數名稱即可( asp-route-Id )
     {
-        if (categoryId == null || categoryId == 0) return NotFound();
-        var category = _db.Categories.FirstOrDefault(c => c.Id == categoryId);
+        if (Id == null || Id == 0) return NotFound();
+        var category = _db.Categories.FirstOrDefault(c => c.Id == Id);
         if (category == null) return NotFound();
 
         return View(category);
