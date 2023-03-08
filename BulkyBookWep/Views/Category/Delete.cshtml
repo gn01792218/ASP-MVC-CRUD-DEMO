@@ -1,0 +1,33 @@
+﻿@model Category
+
+<form method="post">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">Delete Category</h2>
+            <hr/>
+        </div>
+        @* //獲取model中的Name屬性 *@
+        <div class="mb-3">
+            @* 對label使用asp-for，就會直接顯示該Model的屬性名稱 *@
+            <label asp-for="Name"></label>
+            <span>@Model.Name</span>
+            @* <input asp-for="Name" class="form-control"/> *@
+        </div>
+        @* //獲取model中的DisplayOrder屬性 *@
+        <div class="mb-3">
+            @* 對label使用asp-for，就會直接顯示該Model的屬性名稱 *@
+            <label asp-for="DisplayOrder"></label>
+            <span>@Model.DisplayOrder</span>
+            @* <input asp-for="DisplayOrder" class="form-control"/> *@
+        </div>
+        <button type="submit" class="btn btn-primary">Delete</button>
+        <a asp-controller="Category" asp-action="Index" class="btn btn-secondary">Back To List</a>
+    </div>
+</form>
+@* 添加前端Jquery自動驗證，減少對Server不必要的請求 *@
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial"/>
+    }
+}
+

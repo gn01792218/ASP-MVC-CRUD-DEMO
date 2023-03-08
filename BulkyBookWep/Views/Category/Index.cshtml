@@ -1,0 +1,32 @@
+﻿@* //在html中必須要使用小寫開頭唷~ *@
+<!--取用哪種型態的model-->
+@model List<Category>;  
+@{
+    ViewData["Title"] = "Index";
+}
+<a asp-controller="Category" asp-action="Create" class="align-content-end">+ Create Category</a>
+<table class="table table-bordered table-striped">
+    <thead>
+    <tr>
+        <th>Category Name</th>
+        <th>Display Order</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    </thead>
+    <tbody>
+        @foreach (var obj in Model)
+        {
+            <tr>
+                <td>@obj.Name</td>
+                <td>@obj.DisplayOrder</td>
+                <td>
+                    <a class="btn btn-secondary" asp-controller="Category" asp-action="Edit" asp-route-categoryId="@obj.Id">Edit</a>
+                </td>
+                <td>
+                    <a class="btn btn-danger" asp-controller="Category" asp-action="Delete" asp-route-categoryId="@obj.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

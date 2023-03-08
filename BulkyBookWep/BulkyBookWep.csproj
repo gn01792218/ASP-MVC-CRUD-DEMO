@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+    <!--  專案config -->
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <!--  專案安裝的依賴 -->
+    <ItemGroup>
+      <Compile Remove="Models\Catergory.cs" />
+      <Compile Remove="Models\CategoryModel.cs" />
+      <Compile Remove="Controllers\Index.cshtml.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.14" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.14">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.14" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.14">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+    </ItemGroup>
+    <ItemGroup>
+      <Content Remove="Controllers\Index.cshtml" />
+    </ItemGroup>
+
+</Project>
