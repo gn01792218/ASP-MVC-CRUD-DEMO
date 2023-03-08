@@ -63,10 +63,6 @@
             "jQuery": {
               "target": "Package",
               "version": "[3.6.3, )"
-            },
-            "toastr": {
-              "target": "Package",
-              "version": "[2.1.1, )"
             }
           },
           "imports": [
